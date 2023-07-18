@@ -1,0 +1,95 @@
+hr {
+    margin: 0;
+}
+
+.rodapé {
+    background-color: var(--branco);
+    padding: 1em;
+}
+
+.lista-rodapé {
+    display: none;
+}
+
+.rodapé__titulo {
+    margin-top: 10px;
+}
+
+.formas-depagamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.formas-de-pagamento-img {
+    width: 40px;
+    border-radius: 3px;
+}
+
+.Departamentos {
+    display: none;
+}
+
+@media screen and (min-width: 1500px) {
+    .rodapé {
+        display: block;
+        justify-content: space-around;
+        padding: 1em 0;
+    }
+
+    .lista-rodapé {
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
+    }
+
+    .rodapé-container {
+        display: flex;
+        align-items: center;
+        padding: 3em 0;
+        gap: 40px;
+        border-top: 2px solid var(--cinza-claro);
+        border-bottom: 2px solid var(--cinza-claro);
+        background-color: var(--cor-de-fundo);
+    }
+
+    .rodapé__titulo {
+        padding: 0.3em 2em;
+        text-align: center;
+    }
+
+    .titulos-footer {
+        font-size: 25px;
+        padding-left: 1em;
+    }
+
+    .formas-depagamento {
+        display: inline-flex;
+        gap: 20px;
+    }
+
+    .Departamentos {
+        display: block;
+        padding: 2em 0;
+        background-color: var(--cor-de-fundo);
+    }
+
+    .departamentos-lista {
+        padding: 1em 0 0 1.7em;
+        
+    }
+
+    .departamentos-lista-itens {
+        padding: 1em 0;
+    }
+
+    .departamentos-lista-link {
+        text-decoration: none;
+        color: var(--cinza-claro);
+        cursor: pointer;
+    }
+
+    .departamentos-lista-link:hover {
+        color: var(--cinza);
+    }
+}

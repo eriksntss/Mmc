@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado do Marmorista</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <ul></ul>
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Produtos</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Cubas</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Inox</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Abrasivos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Epis</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Lixas</a>
+                </li>
+            </ul>
+            <a href="index.html"><img src="img/logo.png" id="logo-loja" alt="Logo do Mercado do Marmorista" class="container__imagem"></a>
+            <a class="link-inicio" href="index.html"><h1 class="container__titulo"><b class="container__titulo--negrito">Mercado do Marmorista</b></h1></a>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Abrasivos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Insumos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Cubas</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Epis</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Inox</a>
+                </li>
+            </ul>
+            <li class="opções__item"><a href="#" class="opções__link">Quem Somos</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">Política de Privacidade</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="#" class="container__link">
+                <img src="img/iconwpp.svg" alt="Icone do Whatsapp" class="container__imagem">
+                <p class="container__texto">(79) 99950-7029</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/iconig.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">@MERCADOMARMORISTA</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa loja tudo o que precisa!</p>
+    </section>
+    <div>
+        <img class="imagem-inicial" src="img/Imagem-inicial.jpg" alt="imagem inicial">
+    </div>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Destaques</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/sobrepor.jpg"
+                            alt="Livro sobre apache kafka e spring boot da alura books"><p class="compre-aqui"><a class="compre-aqui-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=557999507029" target="_blank">Compre aqui</a></p></div>
+                    <div class="swiper-slide"><img src="img/cuba-morgana.jpg"
+                            alt="Livro sobre liderança em design da alura books"><p class="compre-aqui"><a class="compre-aqui-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=557999507029" target="_blank">Compre aqui</a></p></div>
+                    <div class="swiper-slide"><img src="img/serra-marmore.webp"
+                            alt="Livro sobre javascript assertivo da alurabooks"><p class="compre-aqui"><a class="compre-aqui-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=557999507029" target="_blank">Compre aqui</a></p></div>
+                    <div class="swiper-slide"><img src="img/esmerilhadeira.webp" alt="Livro Guia front end"><p class="compre-aqui"><a class="compre-aqui-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=557999507029" target="_blank">Compre aqui</a></p></div>
+                    <div class="swiper-slide"><img src="img/disco-serra-boda.jpg" alt="Livro sobre portugol"><p class="compre-aqui"><a class="compre-aqui-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=557999507029" target="_blank">Compre aqui</a></p></div>
+                    <div class="swiper-slide"><img src="img/disco-norton.jpg" alt="livro sobre acessibilidade"><p class="compre-aqui"><a class="compre-aqui-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=557999507029" target="_blank">Compre aqui</a></p></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            </div>
+        </div>
+        <section>
+            <h3 class="carrossel__titulo">Dica</h3>
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descrição__titulo-livro">Impermeabilizante</h2>
+                        <p class="descrição__texto">Impermeabilizante Aquarium é um produto hidrofugante que impede a absorção de água e óleo em mármores, granitos, cerâmicas e pedras em geral. Sua principal característica é que não ativa a cor do material, mantendo sua cor natural.</p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/hirdrofugante.webp" class="descrição__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <a class="compre-aqui-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=557999507029" target="_blank"><li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li></a>
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+        </section>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/tubo-inox.webp"
+                            alt="Livro sobre apache kafka e spring boot da alura books"><p class="compre-aqui"><a class="compre-aqui-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=557999507029" target="_blank">Compre aqui</a></p></div>
+                    <div class="swiper-slide"><img src="img/lixa-disco.webp"
+                            alt="Livro sobre liderança em design da alura books"><p class="compre-aqui"><a class="compre-aqui-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=557999507029" target="_blank">Compre aqui</a></p></div>
+                    <div class="swiper-slide"><img src="img/prato-sem-velcro.webp"
+                            alt="Livro sobre javascript assertivo da alurabooks"><p class="compre-aqui"><a class="compre-aqui-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=557999507029" target="_blank">Compre aqui</a></p></div>
+                    <div class="swiper-slide"><img src="img/lixa-ceramica.webp" alt="Livro Guia front end"><p class="compre-aqui"><a class="compre-aqui-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=557999507029" target="_blank">Compre aqui</a></p></div>
+                    <div class="swiper-slide"><img src="img/disco-cortag.webp" alt="Livro sobre portugol"><p class="compre-aqui"><a class="compre-aqui-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=557999507029" target="_blank">Compre aqui</a></p></div>
+                    <div class="swiper-slide"><img src="img/cuba-media-prime.webp" alt="livro sobre acessibilidade"><p class="compre-aqui"><a class="compre-aqui-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=557999507029" target="_blank">Compre aqui</a></p></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tópicos">
+        <h2 class="tópicos__titulo">Informações?</h2>
+        <p class="texto-promoções">Tem alguma dúvida? Fale agora mesmo com um vendedor!</p>
+        <ul class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Clique Aqui!</a>
+            </li>
+        </ul>
+    </section>
+    <footer class="rodapé">
+        <div class="Departamentos">
+        <h3 class="titulos-footer">Departamentos</h3>
+           <ul class="departamentos-lista">
+             <li class="departamentos-lista-itens"><a class="departamentos-lista-link" href="#">Início</a></li>
+             <li class="departamentos-lista-itens"><a class="departamentos-lista-link" href="#">Categorias</a></li>
+             <li class="departamentos-lista-itens"><a class="departamentos-lista-link" href="#">Quem Somos</a></li>
+             <li class="departamentos-lista-itens"><a class="departamentos-lista-link" href="#">Produtos</a></li>
+           </ul>
+            
+        </div>
+        <div class="rodapé-container">
+        <h3 class="titulos-footer">Formas de Pagamento</h3>
+        <ul class="formas-depagamento">
+            <li><img class="formas-de-pagamento-img" src="img/icon-master.svg" alt=""></li>
+            <li><img class="formas-de-pagamento-img" src="img/icon-visa.svg" alt=""></li>
+            <li><img class="formas-de-pagamento-img" src="img/icon-american.webp" alt=""></li>
+            <li><img class="formas-de-pagamento-img" src="img/icon-elo.webp" alt=""></li>
+            <li><img class="formas-de-pagamento-img" src="img/Icon-hiper.webp" alt=""></li>
+            <li><img class="formas-de-pagamento-img" src="img/pix.webp" alt=""></li>
+        </ul>
+        </div>
+        <h2 class="rodapé__titulo">MERCADO DO MARMORISTA LTDA - 2023</h2>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 100,
+        spaceBetween: 30,
+        slidesPerView: 3,
+        autoplay: {
+        delay: 3000,
+                     },
+        navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+                     },
+                        });
+    </script>
+</body>
+
+</html>
