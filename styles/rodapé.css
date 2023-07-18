@@ -49,7 +49,7 @@ hr {
         padding: 3em 0;
         gap: 40px;
         border-top: 2px solid var(--cinza-claro);
-        border-bottom: 2px solid var(--cinza-claro);
+        border-bottom: 1px solid var(--cinza-claro);
         background-color: var(--cor-de-fundo);
     }
 
