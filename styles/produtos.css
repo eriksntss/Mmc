@@ -1,0 +1,47 @@
+
+
+
+.img-produtos {
+    width: 40%;
+    margin: 1em 0 0.5em 0;
+    border-radius: 10px;
+}
+
+.container-produtos {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.texto-produtos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.descricao-produtos {
+    font-size: 10px;
+    margin: 0 auto;
+}
+
+.compre-aqui-produtos {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    font-size: 12px;   
+}
+
+.compre-aqui-link-produtos {
+    text-decoration: none;
+    background-color: var(--verde);
+    color: var(--branco);
+    cursor: pointer;
+    padding: 1em 1em;
+    border-radius: 5px;
+    margin: 0 auto 1em auto;
+}
+
+@media screen and (min-width:1500px){
+    .img-produtos {
+        width: 30%;
+    }
+}
