@@ -5,6 +5,13 @@
     padding: 2.5em 2em;
 }
 
+.banner-produtos {
+    background: var(--verde-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 1em 2em;
+}
+
 .banner__titulo {
     font-size: 18px;
     font-weight: 700;
