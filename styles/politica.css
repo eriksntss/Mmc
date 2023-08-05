@@ -1,0 +1,32 @@
+
+
+.texto-politica-privacidade {
+    margin: 2em 1em 2em 0;
+    text-align: left;
+}
+
+.lista-navegadores {
+    margin: 10px 0;
+}
+
+.link-politica {
+    text-decoration: none;
+    color: var(--cinza-claro);
+}
+
+.paragrafo-politica {
+    margin: 10px 0;
+}
+
+@media screen and (min-width: 1400px) {
+    
+    .texto-politica-privacidade {
+        margin: 3em 2em 3em 0;
+    }
+
+    .paragrafo-politica {
+        margin: 1em 0;
+    }
+
+}
+    
