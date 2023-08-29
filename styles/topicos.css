@@ -1,96 +1,94 @@
 .topicos {
-    background: var(--verde-degrade);
-    text-align: center;
-    padding: 1em 0;
+  background: var(--verde-degrade);
+  text-align: center;
+  padding: 1em 0;
 }
 
 .topicos__titulo {
-    color: var(--branco);
-    font-weight: 300;
-    margin-bottom: 1em;
+  color: var(--branco);
+  font-weight: 300;
+  margin-bottom: 1em;
 }
 
 .topicos__lista {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .topicos__item {
-    margin: 3em 0.5em;
+  margin: 3em 0.5em;
 }
 
 .topicos__link {
-    color: var(--verde);
-    padding: 1em;
-    background-color: var(--branco);
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 700;
+  color: var(--verde);
+  padding: 1em;
+  background-color: var(--branco);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .texto-promoções {
-    color: var(--branco);
-    font-size: 15px;
+  color: var(--branco);
+  font-size: 15px;
 }
 
 .topicos__titulo {
-    font-size: 30px;
-    font-weight: 700;
+  font-size: 30px;
+  font-weight: 700;
 }
 
-@media screen and (min-width: 1024px){
-    .topicos {
-        padding: 3em 20vw;
-    }
+@media screen and (min-width: 1024px) {
+  .topicos {
+    padding: 3em 20vw;
+  }
 
-    .texto-promoções {
-        color: var(--branco);
-        font-size: 30px;
-    }
+  .texto-promoções {
+    color: var(--branco);
+    font-size: 30px;
+  }
 
-    .topicos__titulo {
-        font-size: 40px;
-        font-weight: 700;
-    }
+  .topicos__titulo {
+    font-size: 40px;
+    font-weight: 700;
+  }
 
-    .texto-promocoes{
-        font-size: 25px;
-    }
+  .texto-promocoes {
+    font-size: 25px;
+  }
 
-    .topicos__link {
-        font-size: 15px;
-        transition-duration: 0.5s;
-    }
+  .topicos__link {
+    font-size: 15px;
+    transition-duration: 0.5s;
+  }
 
-    .topicos__link:hover {
-        font-size: 16px;
-    }
+  .topicos__link:hover {
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 1400px) {
-    
-    .topicos {
-        padding: 3em 20vw;
-    }
+  .topicos {
+    padding: 3em 20vw;
+  }
 
-    .texto-promoções {
-        color: var(--branco);
-        font-size: 30px;
-    }
+  .texto-promoções {
+    color: var(--branco);
+    font-size: 30px;
+  }
 
-    .topicos__titulo {
-        font-size: 40px;
-        font-weight: 700;
-    }
-    
+  .topicos__titulo {
+    font-size: 40px;
+    font-weight: 700;
+  }
 
-    .topicos__link {
-        font-size: 15px;
-        transition-duration: 0.5s;
-    }
+  .topicos__link {
+    font-size: 15px;
+    transition-duration: 0.5s;
+  }
 
-    .topicos__link:hover {
-        font-size: 16px;
-    }
+  .topicos__link:hover {
+    font-size: 16px;
+  }
 }

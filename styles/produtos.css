@@ -1,198 +1,235 @@
-
-
-
 .img-produtos {
-    width: 40%;
-    margin: 1em 0 0.5em 0;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 40%;
+  margin: 1em 0 0.5em 0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .img-produtos-desktop {
-    display: none;
+  display: none;
 }
 
 .container-produtos {
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 .texto-produtos {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .descricao-produtos {
-    font-size: 11px;
-    margin: 0 auto;
+  font-size: 11px;
+  margin: 0 auto;
 }
 
 .descricao-produtos-desktop {
-    display: none;
+  display: none;
 }
 
 .compre-aqui-produtos {
-    display: flex;
-    justify-content: space-around;
-    margin: 10px 0;
-    font-size: 12px;   
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  font-size: 12px;
 }
 
 .compre-aqui-link-produtos {
+  text-decoration: none;
+  background-color: var(--verde);
+  color: var(--branco);
+  cursor: pointer;
+  padding: 1em 1em;
+  border-radius: 5px;
+  margin: 0 auto 1em auto;
+}
+
+.compre-aqui-link-produtos-desktop {
+  display: none;
+}
+
+.produtos-tramontina-desktop {
+  display: none;
+}
+
+.descricao__imagem__produtos {
+  margin-left: 25%;
+  width: 50%;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nome-produto {
+  font-size: 20px;
+  background-color: var(--branco);
+  padding: 1em;
+  margin-top: 1em;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .img-produtos {
+    width: 30%;
+    margin: 2em 0 0.5em 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .img-produtos-abrasivos-desktop {
+    width: 20%;
+    margin: 2em 0 0.5em 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .img-produtos-desktop {
+    display: block;
+    width: 30%;
+    margin: 2em 0 0.5em 0;
+  }
+
+  .descricao-produtos {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .descricao-produtos-desktop {
+    display: block;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .compre-aqui-link-produtos {
     text-decoration: none;
     background-color: var(--verde);
     color: var(--branco);
     cursor: pointer;
-    padding: 1em 1em;
+    font-size: 20px;
+    padding: 1em 2em;
     border-radius: 5px;
-    margin: 0 auto 1em auto;
-}
+    margin: 1em auto 1em auto;
+  }
 
-.compre-aqui-link-produtos-desktop {
+  .compre-aqui-link-produtos-desktop {
+    display: block;
+    text-decoration: none;
+    background-color: var(--verde);
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 20px;
+    padding: 1em 2em;
+    border-radius: 5px;
+    margin: 1em auto 1em auto;
+  }
+
+  .compre-aqui-link-produtos:hover {
+    font-weight: 700;
+  }
+  .compre-aqui-link-produtos-desktop:hover {
+    font-weight: 700;
+  }
+
+  .produtos-tramontina-mobile {
     display: none;
+  }
+
+  .produtos-tramontina-desktop {
+    display: block;
+  }
+
+  .link-produtos-restauracao:hover {
+    color: var(--azul);
+  }
 }
 
-.produtos-tramontina-desktop {
+@media screen and (min-width: 1400px) {
+  .img-produtos {
+    width: 30%;
+    margin: 2em 0 0.5em 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .img-produtos-abrasivos-desktop {
+    width: 20%;
+    margin: 2em 0 0.5em 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .img-produtos-desktop {
+    display: block;
+    width: 30%;
+    margin: 2em 0 0.5em 0;
+  }
+
+  .descricao-produtos {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .descricao-produtos-desktop {
+    display: block;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .compre-aqui-link-produtos {
+    text-decoration: none;
+    background-color: var(--verde);
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 20px;
+    padding: 1em 2em;
+    border-radius: 5px;
+    margin: 1em auto 1em auto;
+  }
+
+  .compre-aqui-link-produtos-desktop {
+    display: block;
+    text-decoration: none;
+    background-color: var(--verde);
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 20px;
+    padding: 1em 2em;
+    border-radius: 5px;
+    margin: 1em auto 1em auto;
+  }
+
+  .compre-aqui-link-produtos:hover {
+    font-weight: 700;
+  }
+  .compre-aqui-link-produtos-desktop:hover {
+    font-weight: 700;
+  }
+
+  .produtos-tramontina-mobile {
     display: none;
-}
+  }
 
-@media screen and (min-width:1024px){
-    .img-produtos {
-        width: 30%;
-        margin: 2em 0 0.5em 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    .img-produtos-abrasivos-desktop {
-        width: 20%;
-        margin: 2em 0 0.5em 0;
-        border-radius: 10px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
+  .produtos-tramontina-desktop {
+    display: block;
+  }
 
+  .descricao__imagem__produtos {
+    width: 20%;
+    margin-left: 20%;
+  }
 
-    .img-produtos-desktop {
-        display: block;
-        width: 30%;
-        margin: 2em 0 0.5em 0;
-    }
+  .produtos-descricao {
+    display: flex;
+    align-items: flex-start;
+    gap: 10em;
+  }
 
-    .descricao-produtos {
-        font-size: 20px;
-        margin: 0 auto;
-    }
-
-    .descricao-produtos-desktop {
-        display: block;
-        font-size: 20px;
-        margin: 0 auto;
-    }
-
-    .compre-aqui-link-produtos {
-        text-decoration: none;
-        background-color: var(--verde);
-        color: var(--branco);
-        cursor: pointer;
-        font-size: 20px;
-        padding: 1em 2em;
-        border-radius: 5px;
-        margin: 1em auto 1em auto;
-    }
-
-    .compre-aqui-link-produtos-desktop {
-        display: block;
-        text-decoration: none;
-        background-color: var(--verde);
-        color: var(--branco);
-        cursor: pointer;
-        font-size: 20px;
-        padding: 1em 2em;
-        border-radius: 5px;
-        margin: 1em auto 1em auto;
-    }
-
-    .compre-aqui-link-produtos:hover {
-        font-weight: 700;
-    }
-    .compre-aqui-link-produtos-desktop:hover {
-        font-weight: 700;
-    }
-    
-    .produtos-tramontina-mobile {
-        display: none;
-    }
-
-    .produtos-tramontina-desktop {
-        display: block;
-    }
-}
-
-@media screen and (min-width:1400px){
-    .img-produtos {
-        width: 30%;
-        margin: 2em 0 0.5em 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    .img-produtos-abrasivos-desktop {
-        width: 20%;
-        margin: 2em 0 0.5em 0;
-        border-radius: 10px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-
-    .img-produtos-desktop {
-        display: block;
-        width: 30%;
-        margin: 2em 0 0.5em 0;
-    }
-
-    .descricao-produtos {
-        font-size: 20px;
-        margin: 0 auto;
-    }
-
-    .descricao-produtos-desktop {
-        display: block;
-        font-size: 20px;
-        margin: 0 auto;
-    }
-
-    .compre-aqui-link-produtos {
-        text-decoration: none;
-        background-color: var(--verde);
-        color: var(--branco);
-        cursor: pointer;
-        font-size: 20px;
-        padding: 1em 2em;
-        border-radius: 5px;
-        margin: 1em auto 1em auto;
-    }
-
-    .compre-aqui-link-produtos-desktop {
-        display: block;
-        text-decoration: none;
-        background-color: var(--verde);
-        color: var(--branco);
-        cursor: pointer;
-        font-size: 20px;
-        padding: 1em 2em;
-        border-radius: 5px;
-        margin: 1em auto 1em auto;
-    }
-
-    .compre-aqui-link-produtos:hover {
-        font-weight: 700;
-    }
-    .compre-aqui-link-produtos-desktop:hover {
-        font-weight: 700;
-    }
-    
-    .produtos-tramontina-mobile {
-        display: none;
-    }
-
-    .produtos-tramontina-desktop {
-        display: block;
-    }
+  .nome-produto {
+    margin-top: 0;
+    font-size: 32px;
+    background-color: var(--branco);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1em;
+    font-weight: 400;
+  }
 }

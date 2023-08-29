@@ -1,84 +1,83 @@
 .banner {
-    background: var(--verde-degrade);
-    color: var(--branco);
-    text-align: center;
-    padding: 2.5em 2em;
+  background: var(--verde-degrade);
+  color: var(--branco);
+  text-align: center;
+  padding: 2.5em 2em;
 }
 .banner-produtos {
-    background: var(--verde-degrade);
-    color: var(--branco);
-    text-align: center;
-    padding: 1em 2em;
+  background: var(--verde-degrade);
+  color: var(--branco);
+  text-align: center;
+  padding: 1em 2em;
 }
 
 .banner__titulo {
-    font-size: 25px;
-    font-weight: 700;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .banner__texto {
-    font-weight: 500;
-    margin: 1em 0;
+  font-weight: 500;
+  margin: 1em 0;
 }
 
 .imagem-inicial {
-    width: 100%;
+  width: 100%;
 }
 
 .texto-promocoes {
-    font-size: 15px;
-    color: white;
+  font-size: 15px;
+  color: white;
 }
 
-@media screen and (min-width: 1024px){
-    .imagem-inicial {
-        width: 100%;
-        height: 400px;
-    }
+@media screen and (min-width: 1024px) {
+  .imagem-inicial {
+    width: 100%;
+    height: 400px;
+  }
 
-    .banner-produtos{
-        padding: 2em 2em;
-        margin-bottom: 2em;
-    }
+  .banner-produtos {
+    padding: 2em 2em;
+    margin-bottom: 2em;
+  }
 
-    .banner__titulo {
-        font-size: 40px;
-    }
+  .banner__titulo {
+    font-size: 40px;
+  }
 
-    .banner__texto{
-        font-size: 25px;
-    }
+  .banner__texto {
+    font-size: 25px;
+  }
 }
 
 @media screen and (min-width: 1400px) {
-    .banner__titulo {
-        font-size: 40px;
-    }
+  .banner__titulo {
+    font-size: 40px;
+  }
 
-    .banner__texto{
-        font-size: 25px;
-    }
+  .banner__texto {
+    font-size: 25px;
+  }
 
-    .banner {
-        padding: 2em 0;
-    }
+  .banner {
+    padding: 2em 0;
+  }
 
-    .imagem-inicial {
-        width: 100%;
-        height: 450px;
-}
+  .imagem-inicial {
+    width: 100%;
+    height: 450px;
+  }
 
-.banner-produtos {
+  .banner-produtos {
     background: var(--verde-degrade);
     color: var(--branco);
     text-align: center;
     padding: 2em 2em;
     margin-bottom: 2em;
-}
+  }
 
-.texto-promocoes {
+  .texto-promocoes {
     font-size: 30px;
     color: white;
-}
-
+  }
 }
