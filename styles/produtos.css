@@ -142,6 +142,14 @@
   .link-produtos-restauracao:hover {
     color: var(--azul);
   }
+
+  .nome-produto {
+    margin-top: 52px;
+    font-size: 32px;
+    background-color: var(--branco);
+    padding: 1em;
+    font-weight: 400;
+  }
 }
 
 @media screen and (min-width: 1400px) {
