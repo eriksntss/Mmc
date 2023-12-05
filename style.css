@@ -4,6 +4,7 @@
 @import url("styles/rodapé.css");
 @import url("styles/politica.css");
 @import url("styles/produtos.css");
+@import url("styles/quem-somos.css");
 
 :root {
   --cor-de-fundo: #ebecee;

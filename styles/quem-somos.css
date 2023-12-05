@@ -1,0 +1,25 @@
+.container-quem-somos {
+  display: flex;
+  justify-content: center;
+  margin: 3em 0;
+}
+
+.img-historia-loja {
+  width: 70%;
+  height: 50%;
+  border-radius: 1em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 1024px) {
+  .img-historia-loja {
+    width: 60%;
+    height: 600px;
+    border-radius: 1em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .paragrafo-quem-somos {
+    font-size: 2em;
+  }
+}
